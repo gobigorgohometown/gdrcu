@@ -65,6 +65,7 @@
         width:100%;
         height:100%;
         background: url("./../../../static/img/login-bg.png") no-repeat;
+        background-size: cover;
     }
     .ms-header-bar{
         width:100%;
