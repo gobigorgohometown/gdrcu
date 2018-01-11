@@ -28,14 +28,14 @@
             return {
                 items: [
                     {
-                        icon: 'el-icon-setting',
-                        index: 'readme',
-                        title: '自述'
+                        icon: 'el-icon-arrow-right',
+                        index: 'workbench',
+                        title: '工作台'
                     },
                     {
-                        icon: 'el-icon-menu',
+                        icon: 'el-icon-arrow-right',
                         index: '2',
-                        title: '表格',
+                        title: '敏捷开发管理',
                         subs: [
                             {
                                 index: 'basetable',
@@ -48,7 +48,7 @@
                         ]
                     },
                     {
-                        icon: 'el-icon-date',
+                        icon: 'el-icon-arrow-right',
                         index: '3',
                         title: '表单',
                         subs: [
@@ -71,14 +71,19 @@
                         ]
                     },
                     {
-                        icon: 'el-icon-star-on',
+                        icon: 'el-icon-arrow-right',
                         index: 'basecharts',
                         title: '图表'
                     },
                     {
-                        icon: 'el-icon-upload2',
+                        icon: 'el-icon-arrow-right',
                         index: 'drag',
                         title: '拖拽'
+                    },
+                    {
+                        icon: 'el-icon-plus',
+                        index: 'drag',
+                        title: '创建项目'
                     }
                 ],
                 slidermenu:''

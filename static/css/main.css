@@ -11,14 +11,21 @@ a{text-decoration: none}
 .content{
     background: none repeat scroll 0 0 #fff;
     position: absolute;
-    left: 250px;
+    left: 200px;
     right: 0;
-    top: 70px;
+    top: 40px;
     bottom:0;
     width: auto;
-    padding:40px;
+    /*padding:0 40px;*/
     box-sizing: border-box;
     overflow-y: auto;
+}
+.m-content{
+    background: none repeat scroll 0 0 #fff;
+    overflow-y: auto;
+    width: auto;
+    box-sizing: border-box;
+    padding:40px;
 }
 .crumbs{
     margin-bottom: 20px;
